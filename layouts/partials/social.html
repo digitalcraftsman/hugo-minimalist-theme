@@ -1,0 +1,33 @@
+{{ with .Site.Social.twitter }}
+<li><a href="//twitter.com/{{.}}" class="icon-twitter" target="_blank" title="Twitter"></a></li>
+{{ end }}
+
+{{ with .Site.Social.facebook }}
+<li><a href="//facebook.com/{{.}}" class="icon-facebook" target="_blank" title="Facebook"></a></li>
+{{ end }}
+
+{{ with .Site.Social.linkedin }}
+<li><a href="//linkedin.com/in/{{.}}" class="icon-linkedin" target="_blank" title="Linkedin"></a></li>
+{{ end }}
+
+{{ with .Site.Social.behance }}
+<li><a href="//behance.net/{{.}}" class="icon-behance" target="_blank" title="Behance"></a></li>
+{{ end }}
+
+{{ with .Site.Social.dribbble }}
+<li><a href="//dribbble.com/{{.}}" class="icon-dribbble" target="_blank" title="Dribbble"></a></li>
+{{ end }}
+
+{{ with .Site.Social.instagram }}
+<li><a href="//instagram.com/{{.}}" class="icon-instagram" target="_blank" title="Instagram"></a></li>
+{{ end }}
+
+{{ with .Site.Social.github }}
+<li><a href="//github.com/{{.}}" class="icon-github" target="_blank" title="Github"></a></li>
+{{ end }}
+
+{{ with .Site.Social.gplus }}
+<li><a href="//plus.google.com/+{{.}}" class="icon-gplus" target="_blank" title="Google+"></a></li>
+{{ end }}
+
+<li><a href="{{ .Site.BaseURL }}post/index.xml" class="icon-rss" target="_blank" title="RSS"></a></li>

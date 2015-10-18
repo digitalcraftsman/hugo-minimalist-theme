@@ -1,0 +1,11 @@
+<div class="container clearfix">
+    <main role="main" class="content">
+        {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+        {{ range $paginator.Pages }}
+            {{ .Render "summary" }}
+        {{ end }}
+        {{ partial "pagination" . }}
+    </main>
+
+    {{ partial "author" . }}
+</div>

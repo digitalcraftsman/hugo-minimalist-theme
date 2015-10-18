@@ -1,0 +1,15 @@
+{{ partial "header" . }}
+<div class="container clearfix">
+    <main role="main" class="content">
+    <h2>{{ .Title }}:</a>
+    <ul>
+    {{ $data := .Data }} {{ range $key, $value := .Data.Terms.ByCount }}
+        <li>
+            <a href="{{ $value.Name | urlize }}">{{ $value.Name }} ({{ $value.Count }})</a>
+        </li>
+    {{ end }}
+    </ul>
+    </main>
+    {{ partial "author" . }}
+</div>
+{{ partial "footer" . }}

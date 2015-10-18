@@ -1,0 +1,19 @@
+{{ partial "header" . }}
+
+<div class="container clearfix">
+    <main role="main" class="content">
+        <article class="post">
+            <a class="btn" href="{{ .Site.BaseURL }}" title="Back to homepage">&laquo; Back to home</a>
+            {{ partial "article-header" . }}
+            {{ .Content}}
+            {{ partial "article-share" . }}
+        </article>
+        <div class="comments">
+            <h3>Comments</h3>
+            {{ template "_internal/disqus.html" . }}
+        </div>
+    </main>
+    {{ partial "author" . }}
+</div>
+
+{{ partial "footer" . }}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ if .IsHome }}Home{{ else }}{{ .Title }}{{ end  }} &middot; {{ .Site.Title }}</title>
+        <meta name="author">
+        <meta name="description" content="{{ .Site.Params.site_description }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {{ .Hugo.Generator }}
+          <link href="{{ .Site.BaseURL }}post/index.xml" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+          <link href="{{ .Site.BaseURL }}post/index.xml" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+        <link href='//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css">
+        <script src="{{ .Site.BaseURL }}js/vendor/modernizr-2.8.0.min.js"></script>
+        <style>
+        .site-header h2 .logo {
+        background: url({{ .Site.BaseURL }}{{ .Site.Params.header_background }}) no-repeat 0 0;
+        }
+        @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+          .site-header h2 .logo {
+            background-image: url({{ .Site.BaseURL }}{{ .Site.Params.header_background }});
+        }}
+       .site-header {
+         background: #2a373d url({{ .Site.BaseURL }}{{ .Site.Params.header_background }}) no-repeat center center;
+         z-index: -1;
+        }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header class="site-header">
+          <div class="transparent-layer">
+              <h2>{{ .Site.Params.header_title }}</h2>
+          </div>
+        </header>

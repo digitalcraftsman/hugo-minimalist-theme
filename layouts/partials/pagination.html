@@ -1,0 +1,16 @@
+<div class="pagination">
+<nav>
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+    {{ if .Paginator.HasPrev }}
+	<a class="btn newer" href="{{.Paginator.Prev.URL}}" title="Newer Posts">&laquo; Newer</a>
+	{{ end }}
+{{ end }}
+	<p class="counter">Page {{ .Paginator.PageNumber}} of {{.Paginator.TotalPages}}</p>
+
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+	{{ if .Paginator.HasNext }}
+	<a class="btn older" href="{{.Paginator.Next.URL}}" title="Older Posts">Older &raquo;</a>
+	{{ end }}
+{{ end }}
+</nav>
+</div>

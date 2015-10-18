@@ -1,0 +1,10 @@
+<aside class="author">
+  <img class="profile-image" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="{{ .Site.Params.site_author }}" />
+  <p class="name">by <strong>{{ .Site.Params.site_author }}</strong></p>
+  <p class="address">{{ .Site.Params.location }}</p>
+  <p class="link"></p>
+  <ul class="social">
+    {{ partial "social" . }}
+  </ul>
+  <br><br>
+</aside>
