@@ -3,8 +3,8 @@
 {{ else }}
 <h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
 {{ end }}
-<footer class="post-info">Posted on <span class="post-meta"><time datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "2006.01.02" }}</time>
-{{ if gt (len .Params.tags) 0 }}&middot; Tagged in
+<footer class="post-info">{{ .Site.Data.l10n.article.posted_on }} <span class="post-meta"><time datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "2006.01.02" }}</time>
+{{ if gt (len .Params.tags) 0 }}&middot; {{ .Site.Data.l10n.article.tagged_in }}
     {{ range $i, $v := .Params.tags }}
     <a href="{{ $.Site.BaseURL }}tags/{{ $v | lower }}">{{ $v | lower }}</a>
     {{ if ne (len $.Params.tags) (add $i 1) }}, {{ end }}
