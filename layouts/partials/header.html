@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{{ if .IsHome }}Home{{ else }}{{ .Title }}{{ end  }} &middot; {{ .Site.Title }}</title>
+        <title>{{ if .IsNode}}{{ .Title }} &middot; {{end}}{{ .Site.Title }}</title>
         <meta name="author">
         <meta name="description" content="{{ .Site.Params.site_description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
