@@ -1,0 +1,29 @@
+[author]
+    by = "by"
+
+[article]
+    read_more = "Read more"
+    back_to_home = "Back to home"
+    posted_on = "Posted on"
+    tagged_in = "Tagged in"
+
+[comments]
+    comments = "Comments"
+
+[share]
+    title = "Share this article:"
+    facebook = "Share on Facebook"
+    twitter = "Tweet this article"
+    gplus = "Share on Google+"
+    linkedin = "Share on Linkedin"
+
+[pagination]
+    newer = "Newer"
+    older = "Older"
+    # Page x of y
+    page = "Page"
+    of = "of"
+
+[page_not_found]
+    title = "404 - page not found"
+    subtitle = "The content you're looking for doesn't seem to exist."

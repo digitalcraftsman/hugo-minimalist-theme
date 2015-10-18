@@ -1,0 +1,35 @@
+baseurl = "https://yourdomain.com/"
+languageCode = "en-us"
+title = "John Doe's blog"
+# Define how many pages appear per site
+paginate = 10
+# Enable comments powered by Disqus by entering your disqus shortname
+disqusShortname = "spf13"
+theme = "hugo-minimalist-theme"
+
+[params]
+    site_author = "John Doe"
+    site_description = "The awesome blog of John Doe."
+    location = "Earth"
+    # All paths are relative to the baseurl. Put your files
+    # somewhere in the static folder.
+    avatar = "img/profile-image.png"
+    header_background = "img/desk.jpg"
+    header_title = "Customizable header title"
+    copyright = "Powered by [Hugo](http://gohugo.io)."
+
+    # Enable gogle analytics by entering your tracking code
+    google_analytics = ""
+
+[social]
+    # Add your social network accounts to the profile section on the left
+    # by entering your username. The links to your account will be
+    # create automatically.
+    twitter   = "spf13"
+    facebook  = ""
+    linkedin  = ""
+    behance   = ""
+    dribbble  = ""
+    instagram = ""
+    github    = "digitalcraftsman"
+    gplus     = ""
