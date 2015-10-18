@@ -1,9 +1,9 @@
 name = "Minimalist"
 license = "Apache License 2.0"
-licenselink = ""
-description = ""
-homepage = ""
-tags = ["", ""]
+licenselink = "https://github.com/digitalcraftsman/hugo-minimalist-theme/blob/master/LICENSE.md"
+description = "A minimalistic theme with the focus on blogging."
+homepage = "https://github.com/digitalcraftsman"
+tags = ["disqus", "google analytics", "responsive", "syntax highlighting", "l10n"]
 features = ["", ""]
 min_version = 0.14
 
