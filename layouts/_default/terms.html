@@ -1,7 +1,7 @@
 {{ partial "header" . }}
 <div class="container clearfix">
     <main role="main" class="content">
-    <a class="btn" href="{{ .Site.BaseURL }}" title="{{ .Site.Data.l10n.article.back_to_home }}">&laquo; {{ .Site.Data.l10n.article.back_to_home }}</a>
+    <a class="btn home" href="{{ .Site.BaseURL }}" title="{{ .Site.Data.l10n.article.back_to_home }}">&laquo; {{ .Site.Data.l10n.article.back_to_home }}</a>
     <h2>{{ .Title }}:</a>
     <ul>
     {{ $data := .Data }} {{ range $key, $value := .Data.Terms.ByCount }}

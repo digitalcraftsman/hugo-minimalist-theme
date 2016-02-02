@@ -638,9 +638,6 @@ hr {
     border-color: #2a373d;
     color: #FFF; }
 
-.post .btn {
-  width: 140px; }
-
 .btn.btn-download {
   background-color: #2a373d;
   border-color: #2a373d;
@@ -650,6 +647,9 @@ hr {
     background-color: #49606a;
     border-color: #2a373d;
     color: #FFF; }
+
+.home {
+  width: 140px; }
 
 .newer {
   position: absolute;
