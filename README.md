@@ -1,19 +1,8 @@
 # Minimalist
 
-Minimalist is a responsive theme with a focus on blogging based on the [Minimalistic](Minimalistic) Ghost theme made by [Raphael Riegger](https://github.com/rriegger) . Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, easy localization (l10n), support for RSS feeds, syntax highlighting for source code and sharing options in the blog posts.
+Minimalist is a responsive theme with a focus on blogging based on the [Minimalistic](Minimalistic) Ghost theme made by [Raphael Riegger](https://github.com/rriegger). Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, easy localization (l10n), support for RSS feeds, syntax highlighting for source code and sharing options in the blog posts.
 
 <span align="center">![](https://raw.githubusercontent.com/digitalcraftsman/hugo-minimalist-theme/master/images/screenshot.png)</span>
-
-
-## Contents
-
-- [Installation](#installation)
-- [The config file](#the-config-file)
-- [Localization (l10n)](#localization-l10n)
-- [Nearly finished](#nearly-finished)
-- [Contributing](#contributing)
-- [License](#license)
-- [Annotations](#annotations)
 
 
 ## Installation
@@ -42,7 +31,7 @@ Localization allows you to easily translate all strings in our website. Within [
 
 In order to see your site in action, run Hugo's built-in local server.
 
-    $ hugo server -w
+    $ hugo server
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
@@ -59,4 +48,7 @@ This theme is released under the Apache License 2.0. For more information read t
 
 ## Annotations
 
-Thanks to [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
+Thanks to 
+        
+- [Raphael Riegger](https://github.com/rriegger) for creating the original theme
+- [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project
