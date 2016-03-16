@@ -505,13 +505,19 @@ hr {
   color: #fff;
   text-align: center;
   position: relative;
-  height: 400px;
+  width: 100%;
+  display: table;
   transition: all 0.3s ease; }
+
+.site-header div {
+  display: table-cell;
+  vertical-align: middle;
+}
 
 .site-header h2 {
   margin: 0;
   font-size: 74px;
-  line-height: 400px;
+  vertical-align: middle;
   font-weight: 500;
 }
 
@@ -732,8 +738,11 @@ body.post-template .site-header h2 .logo {
   .container {
     width: 100%; }
 
+  .site-header div {
+      height: 400px;
+  }
+
   .site-header h2 {
-      line-height: 400px;
       font-size: 56px;
   }
 }
@@ -754,8 +763,11 @@ body.post-template .site-header h2 .logo {
     height: 180px;
     transition: all 0.3s ease; }
 
+
+  .site-header div {
+    height: 180px;
+  }
   .site-header h2 {
-    line-height: 180px;
     font-size: 36px;
     background-size: 90px 74px; } }
 .ir {
