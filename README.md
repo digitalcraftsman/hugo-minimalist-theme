@@ -2,7 +2,7 @@
 
 Minimalist is a responsive theme with a focus on blogging based on the [Minimalistic](https://github.com/rriegger/MinimalisticBlogTheme) Ghost theme made by [Raphael Riegger](https://github.com/rriegger). Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, easy localization (l10n), support for RSS feeds, syntax highlighting for source code and sharing options in the blog posts.
 
-<span align="center">![](https://raw.githubusercontent.com/digitalcraftsman/hugo-minimalist-theme/master/images/screenshot.png)</span>
+![](https://raw.githubusercontent.com/digitalcraftsman/hugo-minimalist-theme/master/images/screenshot.png)
 
 
 ## Installation
@@ -40,6 +40,7 @@ Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your b
 
 Did you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](https://github.com/digitalcraftsman/hugo-minimalist-theme/issues) to let me know. Or make directly a [pull request](https://github.com/digitalcraftsman/hugo-minimalist-theme/pulls).
 
+Please create a seperate branch for your pull request.
 
 ## License
 
