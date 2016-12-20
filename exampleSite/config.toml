@@ -11,12 +11,13 @@ theme = "hugo-minimalist-theme"
     site_author = "John Doe"
     site_description = "The awesome blog of John Doe."
     location = "Earth"
-    # All paths are relative to the baseurl. Put your files
-    # somewhere in the static folder.
+    # Link custom assets relative to /static
     avatar = "img/profile-image.png"
     header_background = "img/desk.jpg"
     header_title = "Customizable header title"
     copyright = "Powered by [Hugo](http://gohugo.io)."
+    custom_css = []
+    custom_js  = []
 
     # Enable gogle analytics by entering your tracking code
     google_analytics = ""
