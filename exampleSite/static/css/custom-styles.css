@@ -1,0 +1,4 @@
+/*overrides post date/time/tags to make it more bold*/
+.post-info {
+  font-weight: 500;
+}
