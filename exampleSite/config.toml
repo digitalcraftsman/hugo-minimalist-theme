@@ -17,6 +17,7 @@ theme = "hugo-minimalist-theme"
     header_background = "img/desk.jpg"
     header_title = "Customizable header title"
     copyright = "Powered by [Hugo](http://gohugo.io)."
+    custom_css = ['css/custom-styles.css']
 
     # Enable gogle analytics by entering your tracking code
     google_analytics = ""
