@@ -1,5 +1,5 @@
 <aside class="author">
-  <img class="profile-image" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="{{ .Site.Params.site_author }}" />
+  <img class="profile-image" src="{{ .Site.Params.avatar | absURL }}" alt="{{ .Site.Params.site_author }}" />
   <p class="name">{{ .Site.Data.l10n.author.by }} 
   <strong>{{ .Site.Params.site_author }}</strong></p>
   <p class="address">{{ .Site.Params.location }}</p>
