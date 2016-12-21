@@ -6,6 +6,10 @@ paginate = 10
 # Enable comments powered by Disqus by entering your disqus shortname
 disqusShortname = "spf13"
 theme = "hugo-minimalist-theme"
+# Remove this line if you use this theme for a real website.
+# It allows you to preview the theme within the exampleSite folder
+# with the hugo server command
+themesDir = "../.."
 
 [params]
     site_author = "John Doe"

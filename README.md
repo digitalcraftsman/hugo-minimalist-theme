@@ -5,13 +5,26 @@ Minimalist is a responsive theme with a focus on blogging based on the [Minimali
 ![](https://raw.githubusercontent.com/digitalcraftsman/hugo-minimalist-theme/master/images/screenshot.png)
 
 
-## Installation
+## Preview & Installation
 
-Inside the folder of your Hugo site run:
+### Preview
 
-    $ mkdir themes
-    $ cd themes
-    $ git clone https://github.com/digitalcraftsman/hugo-minimalist-theme.git
+The theme ships with a `exampleSite` folder that acts as a demo setup. `cd` into this folder an start the Hugo:
+
+    git clone https://github.com/digitalcraftsman/hugo-minimalist-theme.git
+    cd hugo-minimalist-theme/exampleSite
+    hugo server
+ 
+Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
+
+### Installation
+
+If you want to use this theme for an actual website create a new Hugo project and clone the theme:
+
+    cd themes
+    git clone https://github.com/digitalcraftsman/hugo-minimalist-theme.git
+
+*Note:* make sure to remove `themesDir = "../.."` from the top of your config file if you copied it from `exampleSite/config.toml`. Otherwise, Hugo will be unable to find the theme.
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -25,16 +38,6 @@ To use it, copy the [`config.toml`](https://github.com/digitalcraftsman/hugo-min
 ## Localization (l10n)
 
 Localization allows you to easily translate all strings in our website. Within [`exampleSite/data`](https://github.com/digitalcraftsman/hugo-minimalist-theme/tree/master/exampleSite/data) you'll find a file called [`l10n.toml`](https://github.com/digitalcraftsman/hugo-minimalist-theme/blob/master/exampleSite/data/l10n.toml). If you're not blogging in English replace all strings with their equivalents of your preferred language.
-
-
-## Nearly finished
-
-In order to see your site in action, run Hugo's built-in local server.
-
-    $ hugo server
-
-Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
-
 
 ## Contributing
 
