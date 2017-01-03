@@ -1,3 +1,4 @@
+
 # Minimalist
 
 Minimalist is a responsive theme with a focus on blogging based on the
@@ -30,7 +31,7 @@ If you want to use this theme for an actual website create a new Hugo project an
     cd themes
     git clone https://github.com/digitalcraftsman/hugo-minimalist-theme.git
 
-*Note:* make sure to remove `themesDir = "../.."` from the top of your config file if you copied it from `exampleSite/config.toml`. Otherwise, Hugo will be unable to find the theme.
+**Note:** make sure to remove `themesDir = "../.."` from the top of your config file if you copied it from `exampleSite/config.toml`. Otherwise, Hugo will be unable to find the theme.
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -53,15 +54,14 @@ If you're not blogging in English replace all strings with their equivalents of 
 Did you find a bug or have an idea for a new feature?
 Feel free to use the [issue tracker](https://github.com/digitalcraftsman/hugo-minimalist-theme/issues)
 to let me know. Or create a [pull request](https://github.com/digitalcraftsman/hugo-minimalist-theme/pulls).
-
-Please create a seperate branch for your pull request.
+**Please create a seperate branch for your pull request.**
 
 ## License
 
 This theme is released under the Apache License 2.0.
 For more information read the [License](https://github.com/digitalcraftsman/hugo-minimalist-theme/blob/dev/LICENSE.md).
 
-## Annotations
+## Acknowledgements
 
 Thanks to 
         
