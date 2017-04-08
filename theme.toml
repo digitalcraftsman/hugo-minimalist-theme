@@ -4,8 +4,8 @@ licenselink = "https://github.com/digitalcraftsman/hugo-minimalist-theme/blob/ma
 description = "A minimalistic theme with the focus on blogging."
 homepage = "https://github.com/digitalcraftsman"
 tags = ["disqus", "google analytics", "responsive", "syntax highlighting", "l10n"]
-features = ["", ""]
-min_version = 0.14
+features = []
+min_version = 0.20
 
 [author]
   name = "Digitalcraftsman"
