@@ -1,7 +1,7 @@
 <footer class="main-footer">
   <div class="container clearfix">
         <a class="icon-rss" href="{{ "post/index.xml" | absURL }}" title="RSS"></a>
-        <p>&copy; {{ now.Format "2006" }} &middot; {{ .Site.Params.copyright | markdownify }}</p>
+        <p>&copy; {{ time.now.Format "2006" }} &middot; {{ .Site.Params.copyright | markdownify }}</p>
   </div>
 </footer>
 
