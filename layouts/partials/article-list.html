@@ -1,6 +1,6 @@
 <div class="container clearfix">
     <main role="main" class="content">
-        {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
         {{ range $paginator.Pages }}
             {{ .Render "summary" }}
         {{ end }}

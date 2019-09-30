@@ -25,6 +25,9 @@ themesDir = "../.."
     custom_css = []
     custom_js  = []
 
+    # Define which content types are shown on the homepage
+    mainSections = ["post"]
+
     # Enable gogle analytics by entering your tracking code
     google_analytics = ""
 
