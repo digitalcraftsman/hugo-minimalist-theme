@@ -5,7 +5,7 @@ description = "A minimalistic theme with the focus on blogging."
 homepage = "https://github.com/digitalcraftsman"
 tags = ["disqus", "google analytics", "responsive", "syntax highlighting", "l10n"]
 features = []
-min_version = 0.20
+min_version = "0.57.2"
 
 [author]
   name = "Digitalcraftsman"
